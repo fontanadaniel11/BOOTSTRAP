@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: #d60c0c;
-  padding: 10px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 15px;
-  text-align: center;
-}
-</style>
+    <title>ESERCIZIO 2.1 BOOTSTRAPS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="grid-container">
-  <div class="grid-item">1. Qual è la dimensione del testo di default di  bootstrap?</div>
-  <div class="grid-item">Qual è il font di default di  bootstrap?</div>
-  <div class="grid-item">Quali sono il margine superiore e inferiore di un paragrafo?</div>  
-  <div class="grid-item">Crea un div come segue usando opportunamente i tag dl blockquote abbr mark</div>
-  <div class="grid-item">1. Reimpostata la dimensione del carattere di base su 16px su body .</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-</div>
-
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>ESERCIZIO 2.1</h1>
+      </div>
+      
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Qual è la dimensione del testo di default di  bootstrap?</h3>
+            <p>Bootstrap 5 utilizza un valore predefinito font-sizedi 1rem (16px per impostazione predefinita) ed line-heightè 1.5.</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Qual è il font di default di  bootstrap?</h3>
+            <p>il font di default è Helvetica Neue</p>
+          </div>
+          
+          <div class="col-sm-4">
+            <h3>Quali sono il margine superiore e inferiore di un paragrafo?</h3>
+            <p>gli elementi hanno margin-top: 0e margin-bottom: 1rem(16px per impostazione predefinita).</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Crea un div come segue usando opportunamente i tag dl blockquote abbr mark</h3>
+            <p class="h1">Sono Grande</p>
+            <p class="h5">Ciao Bellissimo</p>
+            <p class="h7">Viva i cavolfiori</p>
+            <p class="h4">Che mondo stupendo</p>
+            <dt>Pasta Al Ragu</dt>
+            <dd>- Cibo che mangierei tutti i giorni</dd>
+            <dt>Sushi</dt>
+            <dd>Altro cibo che mangierei tutti i giorni</dd>
+          </dl> 
+          <br>
+          <footer class="blockquote-footer">sono quasi trasparente</footer>
+          </div>
+          <div class="col-sm-4">
+            <h3>Prova a scrivere alcuni paragrafi con dei testi che abbiano queste caratteristiche
+                Bold
+                Italic
+                Light
+                Centrato
+                Allineato a destra
+                list-inline 
+                </h3>
+              
+              
+                <p class="text-center">Il bellissimo testo allineato al centro</p>
+                <p class="text-end">Il bellissimo testo allineato a destra</p>
+                <p class="fw-bold">Il bellissimo testo in grassetto</p>
+                <p class="font-italic">Il bellissimo testo scritto con un italic font</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item">inter</li>
+                    <li class="list-inline-item">juve</li>
+                    <li class="list-inline-item">Pobega</li>
+                </ul>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
-
-
